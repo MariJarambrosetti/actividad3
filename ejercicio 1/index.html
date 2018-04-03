@@ -23,25 +23,40 @@
 
 		.menu_fixed {
 			position: fixed;
-			background-color: silver;
+			background-color: gray;
 			width: 100%;
-			margin: 0px;
+			top: 0px;
+			padding: 10px;
 		}
 
 		.menu_fixed li {
 			list-style-type: none;
 			float: left;
-			margin: 5px;
+			margin: 0 10px;
+			color: white;
 		}
 
+		body{
+			margin: 0px;
+		}
+
+		.menu_fixed li a {
+			color: white;
+			text-decoration: none;
+		}
+
+		.menu_fixed ul {
+			margin: 0px;
+		}
+  
 	</style>
 </head>
 <body>
 	<nav class="menu_fixed">
 		<ul>
-			<li><a href="#" title="menu">menu1</a></li>
-		    <li><a href="#" title="menu">menu2</a></li>
-		    <li><a href="#" title="menu">menu3</a></li>
+			<li><a href="#" title="menu">Inicio</a></li>
+		    <li><a href="#" title="menu">Quienes Somos</a></li>
+		    <li><a href="#" title="menu">Contacto</a></li>
 		</ul>
 	</nav>
 
